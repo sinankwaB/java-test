@@ -24,14 +24,8 @@ public class Bicycle {
 		Scanner eingabe = new Scanner(System.in);
 		System.out.print("Dein Tipp: ");
 		String tipp = eingabe.next();
-		
-		if(tipp.charAt(0) == wort.charAt(0)) {
-			System.out.println("1. Buchstabe richtig!");
-		} else {
-			System.out.println("1. Buchstabe falsch!");
-		}
 
-	/*	boolean check = tipp.equals(buchstaben);
+		boolean check = tipp.equals(buchstaben);
 
 		if (tipp.equals(buchstaben)) {
 			System.out.println(check);
@@ -41,7 +35,6 @@ public class Bicycle {
 		} else {
 			System.out.println("Versuchen Sie es erneut!");
 		}
-   */
-		
+
 	}
 }
