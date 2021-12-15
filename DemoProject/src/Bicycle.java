@@ -27,6 +27,21 @@ public class Bicycle {
 
 		boolean check = tipp.equals(buchstaben);
 
+		for (int i = 0; i < wort.length(); i++) {
+			if (tipp.charAt(i) == wort.charAt(i)) {
+				System.out.println((i+1) + "1. Buchstabe richtig!");
+			} else {
+				System.out.println((i+1) +"1. Buchstabe falsch!");
+			}
+		}
+		/*
+		 * boolean check = tipp.equals(buchstaben);
+		 * 
+		 * if (tipp.equals(buchstaben)) { System.out.println(check); } if
+		 * (tipp.equals("BICYCLE")) { System.out.println("Richtig!"); } else {
+		 * System.out.println("Versuchen Sie es erneut!"); }
+		 */
+
 		if (tipp.equals(buchstaben)) {
 			System.out.println(check);
 		}
